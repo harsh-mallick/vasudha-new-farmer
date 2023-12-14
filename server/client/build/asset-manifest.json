@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.53632223.css",
+    "main.js": "/static/js/main.d7884f58.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/Farmland.jpg": "/static/media/Farmland.2bad3dd0e7c386283c83.jpg",
+    "static/media/frame-2@3x.png": "/static/media/frame-2@3x.9811af1182402ed39434.png",
+    "static/media/Crops in field.webp": "/static/media/Crops in field.356fb4607053fab7c9e6.webp",
+    "static/media/Wholesale.jpg": "/static/media/Wholesale.fbc59b305404e545acdd.jpg",
+    "static/media/carsoul1.jpeg": "/static/media/carsoul1.ce52355dc3e5d4d10f21.jpeg",
+    "static/media/Logo-Logo.png": "/static/media/Logo-Logo.b3bb7f48054fe5ea9439.png",
+    "static/media/thumbbig-190787.webp": "/static/media/thumbbig-190787.0d1d97bb05fdac73607d.webp",
+    "static/media/about.jpg": "/static/media/about.32e271ccb31413ba0d4e.jpg",
+    "static/media/aboutbg.jpg": "/static/media/aboutbg.de3f9e839a9b9ba5b46c.jpg",
+    "static/media/Tejas.jpg": "/static/media/Tejas.bcfc714e4295ebec655e.jpg",
+    "static/media/Piyush.jpg": "/static/media/Piyush.e4aa0c66f17f077e7382.jpg",
+    "static/media/hmlord.jpg": "/static/media/hmlord.b382461f857b48da01e6.jpg",
+    "static/media/Krisha.jpg": "/static/media/Krisha.32f5b91fab54106f68d6.jpg",
+    "static/media/contactus.jpg": "/static/media/contactus.71a0133ccf665a73a36e.jpg",
+    "static/media/user.png": "/static/media/user.72c53c386bb343cfaaef.png",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.53632223.css.map": "/static/css/main.53632223.css.map",
+    "main.d7884f58.js.map": "/static/js/main.d7884f58.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53632223.css",
+    "static/js/main.d7884f58.js"
+  ]
+}

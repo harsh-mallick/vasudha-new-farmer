@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+.wrapper-signup {
+    width: 925px;
+    height: 690px;
+    border: 2px solid rgba(255, 255, 255, 0.416);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    background-color: rgba(10, 31, 49, 0.099);
+    align-items: center;
+    color: aliceblue;
+    margin-top: 5px;
+}
+
+.dropdown-signup {
+    margin: 2px;
+    font-size: 20px;
+}
+
+.select-signup {
+    align-self: center;
+    margin: 2px;
+    font-size: 17px;
+    background: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.option-signup {
+    background-color: white;
+    color: black;
+}
+
+.rightpanel-signup {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: -15px;
+    padding: 5px;
+    height: 100%;
+    border: none;
+}
+
+.leftpanel-signup {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: -15px;
+    padding: 5px;
+    height: 100%;
+    border: none;
+}
+
+
+.signup-signup {
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
+
+.input-box-signup {
+    text-align: left;
+    margin: 40px 0;
+}
+
+.form-signup-signup {
+    width: 771px;
+    text-align: center;
+}
+
+
+.form-signup-signup .label-signup {
+    font-size: 20px;
+}
+
+.input-box-signup .input-signup {
+    width: 80%;
+    height: 25px;
+    border: none;
+    padding: 3px;
+    border-radius: 2px;
+    background-color: rgba(245, 222, 179, 0);
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.input-signup {
+    outline: none;
+    font-size: medium;
+    margin-top: 5px;
+}
+
+::placeholder {
+    color: aliceblue;
+    opacity: 50%;
+}
+
+.button-signup {
+    padding: 5px 7px;
+    color: #ffffff;
+    background-color: rgb(96 146 50 / 78%);
+    background-size: 300% 100%;
+    cursor: pointer;
+    border-radius: 100px;
+    margin: 5px;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+
+.button-signup:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.icons-signup {
+    filter: brightness(0) invert(1);
+    margin-top: 5px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../Images/Farmland.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inform {
+    display: inline-flex;
+    width: 100%;
+}

@@ -1,0 +1,39 @@
+.card-buyer{
+    width: 288px;
+    height: 469.2px;
+    text-align: center;
+    border: solid rgba(0, 0, 0, 0.578);
+    border-radius: 5px;
+    margin: 12px;
+    box-shadow: 3px ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-img-buyer{
+    object-fit: fill;
+}
+
+.card-img-buyer .img-buyer{
+    border: solid rgba(90, 90, 90, 0.578) 1px;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+}
+
+.card-content-buyer {
+    padding: 10px;
+}
+
+.card-buyer .h2-buyer {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.card-buyer .p-buyer {
+    font-size: 14.5px;
+    margin: 0;
+    margin-bottom: 15px;
+}

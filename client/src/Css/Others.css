@@ -1,0 +1,141 @@
+.body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    /* fonts */
+    --font-inter: Inter;
+    --font-poppins: Poppins;
+
+    /* font sizes */
+    --font-size-8xl: 27px;
+
+    /* Colors */
+    --color-white: #fff;
+    --color-darkslategray: rgba(61, 58, 58, 0.54);
+}
+
+.back-ground {
+    position: absolute;
+    top: 155px;
+    left: calc(50% - 472.5px);
+    border-radius: 62px;
+    background-color: rgba(231, 222, 222, 0.15);
+    backdrop-filter: blur(27px);
+    border-top: 2px solid var(--color-darkslategray);
+    border-right: 8px solid var(--color-darkslategray);
+    border-bottom: 10px solid var(--color-darkslategray);
+    border-left: 2px solid var(--color-darkslategray);
+    box-sizing: border-box;
+    width: 952px;
+    height: 488px;
+}
+
+.check-soil-details,
+.check-weather-details,
+.crop-yield-predictor,
+.more-services1 {
+    position: absolute;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-services1 {
+    margin: 0;
+    top: 14px;
+    left: 136px;
+    font-size: inherit;
+    font-weight: 800;
+    font-family: inherit;
+    width: 447px;
+    height: 59px;
+    -webkit-text-stroke: 1px #91ac2f;
+}
+
+.check-soil-details,
+.check-weather-details,
+.crop-yield-predictor {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 194px;
+    left: calc(50% - 161px);
+    font-size: var(--font-size-8xl);
+    font-weight: 300;
+    font-family: var(--font-poppins);
+    color: var(--color-white);
+    text-align: center;
+    width: 321px;
+    mix-blend-mode: normal;
+}
+
+.check-soil-details,
+.check-weather-details {
+    top: 103px;
+}
+
+.check-weather-details {
+    top: 12px;
+}
+
+.crop-yield-predictor-parent {
+    position: absolute;
+    top: 169px;
+    right: 84px;
+    width: 550px;
+    height: 235px;
+}
+
+.more-services-parent {
+    position: absolute;
+    top: 180px;
+    left: 422px;
+    width: 719px;
+    height: 417px;
+}
+
+.back-ground-parent {
+    width: 100%;
+    height: 739px;
+    background-image: url('../Images/frame-2@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.vasudha {
+    position: absolute;
+    top: 23px;
+    left: 59px;
+    display: inline-block;
+    width: 107px;
+    height: 21px;
+}
+
+.vasudha-wrapper {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 735.5px);
+    background-color: #7c7c7c;
+    width: 1471px;
+    height: 77px;
+    mix-blend-mode: linear-burn;
+    text-align: left;
+    font-size: 25.41px;
+    color: var(--color-white);
+    font-family: var(--font-inter);
+}
+
+.more-services {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 739px;
+    text-align: center;
+    font-size: 60px;
+    color: #02590a;
+}

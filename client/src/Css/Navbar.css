@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.header {
+    font-family: 'Poppins', sans-serif;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(1 118 44 / 94%);
+    z-index: 4;
+}
+
+.left {
+    display: inline-flex;
+}
+
+.header .nav .a {
+    text-align: right;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 19px;
+    transition: all .5s ease-in-out;
+    font-size: 16px;
+}
+
+.header .nav-ini .a {
+    text-align: right;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 19px;
+    transition: all .5s ease-in-out;
+    font-size: 16px;
+}
+
+.header .nav {
+    text-align: right;
+    margin-right: 71px;
+    width: 1040px;
+    display: inline-flex;
+}
+
+.header .nav-ini {
+    text-align: right;
+    margin-right: 71px;
+    display: inline-flex;
+}
+
+.header .nav .a:hover {
+    color: rgb(180, 241, 156);
+}
+
+.header .nav-ini .a:hover {
+    color: rgb(180, 241, 156);
+}
+
+.header .img {
+    text-align: left;
+    margin: -19px;
+    user-select: none;
+    margin-left: 32px;
+    width: 100px;
+}
+
+
+.header .h2 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: white;
+    letter-spacing: 2.6px;
+    font-size: 29px;
+}
+
+.h2 {
+    position: relative;
+    left: 30px;
+}

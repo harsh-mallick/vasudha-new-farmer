@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.weather-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../Images/Crops\ in\ field.webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wapper {
+    margin-top: 75px;
+    position: relative;
+    width: 1021px;
+    height: 528px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.416);
+    border-radius: 30px;
+    backdrop-filter: blur(21px);
+    display: flex;
+    justify-content: center;
+    color: rgba(26, 129, 0, 0.879);
+    font-size: 24px;
+    align-items: center;
+}
+
+.Details h2 {
+    text-align: center;
+}
+
+.topbar {
+    display: flex;
+}
+
+.Details-box {
+    width: 1000px;
+    padding: 40px;
+    color: aliceblue;
+    font-size: 21px;
+    display: flex;
+    position: relative;
+    left: 130px;
+}
+
+.display-box {
+    display: flex;
+    padding: 10px;
+}
+
+.display-box p {
+    margin: 5px;
+}
+
+.Left-box {
+    width: 100%
+}
+
+.Right-box {
+    width: 100%;
+}
+
+.Details img {
+    height: 33px;
+    display: flex;
+    float: left;
+    filter: brightness(0) invert(1);
+}
+
+.back {
+    border: none;
+    background: none;
+}
+
+.backB {
+    align-self: end;
+}
+
+.headerTopic {
+    width: 100%;
+}

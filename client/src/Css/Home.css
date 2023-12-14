@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: auto;
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(1 118 44 / 94%);
+    z-index: 2;
+}
+
+.header .nav .a {
+    text-align: right;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 19px;
+    transition: all .5s ease-in-out;
+    font-size: 16px;
+}
+
+.header .nav {
+    text-align: right;
+    display: inline-block;
+    margin-right: 71px;
+}
+
+.header .nav .a:hover {
+    color: rgb(180, 241, 156);
+}
+
+.header .img {
+    text-align: left;
+    margin: -19px;
+    user-select: none;
+    display: inline-block;
+    margin-left: 32px;
+    width: 100px;
+}
+
+.header .h2 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-right: 680px;
+    color: white;
+    letter-spacing: 2.6px;
+    font-size: 29px;
+    user-select: none;
+}
+
+/*End of Navbar*/
+
+.main {
+    height: 732px;
+    background: url("../Images/Bg.webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-1 {
+    position: relative;
+    width: 100%;
+    transform: scale(1.1);
+}
+
+.bg {
+    backdrop-filter: blur(2px);
+    height: 100%;
+    display: flex;
+}
+
+.HomeText {
+    height: auto;
+    width: 697px;
+    margin: 88px;
+    border-radius: 10px;
+    background-color: #57e07042;
+    margin-top: 180px;
+}
+
+.Agrinet {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-top: 73px;
+    font-size: 60px;
+    letter-spacing: 2.7px;
+    color: white;
+}
+
+.Topic-Slogan {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-top: 27px;
+    font-size: 21px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+
+.image-logo {
+    height: 360px;
+    margin: 120px;
+    float: right;
+    margin-top: 230px;
+
+
+    /* Animations */
+    stroke: blue;
+    stroke-width: 10px;
+    stroke-dashoffset: -2000;
+    stroke-dasharray: 2000;
+    animation-name: logo;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.38, 0.35, 0.34, 1.08);
+}
+
+@keyframes logo {
+    0% {
+        stroke-dashoffset: -2000;
+    }
+
+    50% {
+        stroke: rgb(139, 139, 0);
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+        stroke: green;
+    }
+}
+
+/* Button */
+
+.wrapper {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .btn {
+    width: 170px;
+    margin: 0 20px;
+    padding: 15px 0;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    background: #fff;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn p {
+
+    color: #2b2f6c;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 10px;
+}
+
+.BorderTopBottom:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    top: -6px;
+    left: -7px;
+    background: #fff;
+    transition: all 0.5s ease;
+}
+
+.BorderTopBottom:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    bottom: -6px;
+    right: -7px;
+    background: #fff;
+    transition: all 0.5s ease;
+}
+
+.BorderLeftRight:before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -7px;
+    width: 3px;
+    height: 25px;
+    background: #fff;
+    transition: all 0.5s ease;
+}
+
+.BorderLeftRight:after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    right: -7px;
+    width: 3px;
+    height: 25px;
+    background: #fff;
+    transition: all 0.5s ease;
+}
+
+.btn:hover .BorderTopBottom:before,
+.btn:hover .BorderTopBottom:after {
+    width: 184px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover .BorderLeftRight:before,
+.btn:hover .BorderLeftRight:after {
+    height: 57px;
+    transition: all 0.5s ease;
+}
+
+/* Card planel css Starts  */
+
+.cardpanel {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 83px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.cardpanel-topic {
+    font-size: 50px;
+    margin-right: 35px;
+    padding: 10px;
+    font-family: 'Playpen Sans', cursive;
+    background: radial-gradient(circle, rgba(0, 79, 187, 0.31985294117647056) 31%, rgba(1, 255, 0, 0) 61%);
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.card {
+    width: 288px;
+    height: 469.2px;
+    text-align: center;
+    border: solid rgba(0, 0, 0, 0.578);
+    border-radius: 5px;
+    margin: 12px;
+    box-shadow: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-img {
+    object-fit: fill;
+}
+
+.card-img img {
+    border: solid rgba(90, 90, 90, 0.578) 1px;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.card p {
+    margin-top: 33px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+}
+
+
+.reveal {
+    position: relative;
+    opacity: 0;
+}
+
+.reveal.active {
+    opacity: 1;
+}
+
+.active.fade-bottom {
+    animation: fade-bottom 1s cubic-bezier(0.98, 0.13, 0.16, 0.91);
+}
+
+@keyframes fade-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* About Us */
+.about-container {
+    margin: 55px;
+    margin-top: 105px;
+    display: flex;
+}
+
+.aboutus-Topic {
+    font-family: 'Nunito', sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    width: 80%;
+    /* animation properties */
+    -moz-transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+
+    -moz-animation: my-animation 5s cubic-bezier(.25, .1, .2, .61) infinite;
+    -webkit-animation: my-animation 5s cubic-bezier(.25, .1, .2, .61) infinite;
+    animation: my-animation 5s cubic-bezier(.25, .1, .2, .61) infinite;
+    animation-direction: alternate;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+    from {
+        -moz-transform: translateX(0%);
+    }
+
+    to {
+        -moz-transform: translateX(100%);
+    }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+    from {
+        -webkit-transform: translateX(0%);
+    }
+
+    to {
+        -webkit-transform: translateX(100%);
+    }
+}
+
+@keyframes my-animation {
+    from {
+        -moz-transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+    to {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+}
+
+.about-Para {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-top: 21px;
+    letter-spacing: 0.8px;
+    line-height: 1.25;
+}
+
+.about-img {
+    height: 242px;
+}
+
+.Made {
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    margin-top: 21px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: bolder;
+    margin-left: 10px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes example {
+    from {
+        color: red;
+    }
+
+    to {
+        color: yellow;
+    }
+}
+
+.container-contactus {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.submit {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #45a049;
+}
+
+:root {
+    --scroll: 0;
+}
